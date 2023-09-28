@@ -1,0 +1,16 @@
+let num = 122
+let result
+
+if (num%2 === 0 ){
+    result = 'EVEN'
+}
+else{
+    result = ' ODD'
+}
+console.log(result)
+
+// turnery operateo [  ? :]
+
+
+out_put =  num%2 ===0?'EVEN':'ODD'
+console.log('?: turnery operator out put __',out_put)

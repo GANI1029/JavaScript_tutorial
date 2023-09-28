@@ -1,0 +1,27 @@
+
+let num = 1
+
+while(num <=10){
+    console.log('hii ' , num)
+    num ++
+}
+
+//DO while
+
+do {
+    console.log('-hi- ' , num)
+    num++
+
+}while(num <15)
+
+// for loop 
+
+for (  let x = 1 ; x<=5 ; x++)
+
+{
+    
+    console.log( ' hi _from for loop _' , x)
+
+
+} 
+ 

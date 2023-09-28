@@ -1,0 +1,37 @@
+let values = [ 10 ,20 ,30  ,40 ,50]
+
+// console.log( values.shift())
+
+// console.log( values.unshift(1))
+
+console.log(   values.splice( 2)    )
+
+console.log(values)
+
+
+// console.log(values[0])
+
+// array of mixed type 
+console.log('------------------------------------')
+let data = [  'ramu' ,
+
+             20 ,
+
+              { tech : 'JS' , company : 'TCS'  } ,
+
+               function(){ console.log('this names array function of ramu')}
+             ]
+
+console.log(data)       
+
+console.log(data[0])
+
+console.log( data[3]() ) // calling array function 
+
+data.push('automatin tasks ')
+
+console.log(data) 
+
+
+
+

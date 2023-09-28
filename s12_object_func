@@ -1,0 +1,20 @@
+let laptop = {
+
+    cpu : 'i9',
+
+    storage : '1TB',
+
+    ram : 16 ,
+
+    brand : 'HP',
+
+    specs : function(){
+        console.log('using this key word maps the current objet',this.brand)
+        console.log( 'using the object name ', laptop.brand)
+    }
+
+}
+
+console.log(laptop)
+
+laptop.specs

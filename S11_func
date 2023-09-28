@@ -1,0 +1,72 @@
+function greet()
+{
+    console.log('hi this my first function in js ')
+    return 'function returned string '
+}
+
+let return_value =  greet()
+
+console.log(return_value)
+
+
+function user_greet(user){
+
+    console.log('----user greet function')
+    return `heloo user ${user}`
+
+
+}
+
+let user = 'vikarm'
+let return_str =  user_greet(user)
+
+console.log(return_str)
+
+
+///////////////////////////////////////////
+
+function adding( n1 , n2 , n3 = 1){
+
+    return n1+n2+n3
+
+}
+
+let n = 10
+let nn =20 
+let nnn = 30
+
+
+value = adding( n , nn   , nnn )
+
+console.log( 'adding --- ' ,value)
+
+///////////// arrow functions 
+
+let demo = function(){
+    console.log('this demo function')
+}
+
+demo()
+/////arroe funct demo1
+
+// let demo1 = ()=> 
+// {
+//     console.log('this demo1 function')
+//     return 'demo arrow function'
+// }
+
+// demo_vale = demo1()
+
+// console.log(demo_vale)
+
+////////////////////////////////////
+
+let demo1 = ()=> '--demo arrow-- function'
+
+
+demo_vale = demo1()
+
+console.log(demo_vale)
+
+
+

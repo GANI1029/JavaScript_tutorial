@@ -1,0 +1,37 @@
+let alien = {
+    name : 'ravi',
+    age : 26 ,
+    laptop : {
+        cpu : 'i5',
+        ram : 8 ,
+        HDD : '1TB'
+    }
+}
+
+console.log(alien)
+
+console.log(alien.name)
+console.log(alien['laptop'])
+
+console.log(alien.laptop.cpu.length)
+
+console.log(alien.laptop.cpu1?.length)
+
+console.log('? check for attribut in object if it exist than tn code after ? makr  /n--', alien?.laptop?.cpu?.length)
+
+//delete alien.laptop
+
+
+console.log(alien)
+
+console.log('----------------')
+
+for ( let key in alien){
+
+    console.log( key , alien[key])
+}
+
+
+
+
+
